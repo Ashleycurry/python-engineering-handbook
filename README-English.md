@@ -1,6 +1,6 @@
 ﻿# Python Engineering Handbook
 
-A course notes and examples repository for Python beginners. The main content is organized from the materials in `课件/`, with an additional learning path and supplementary notes based on *Python Programming: An Introduction and Practice (Micro Video Edition)*.
+A course notes and examples repository for Python beginners. The main content is organized from the course materials, with an additional learning path and supplementary notes based on *Python Programming: An Introduction and Practice (Micro Video Edition)*.
 
 This repository follows a simple progression: understand the fundamentals, practice with focused examples, and develop clear, maintainable, reusable coding habits.
 
@@ -18,20 +18,7 @@ The examples are stored under `src/`. Each course directory uses a three-digit n
 python-engineering-handbook/
 ├── README.md
 ├── README-English.md
-├── 课件/
-│   ├── 001_Python介绍与安装/
-│   ├── 002_第一个程序-“Hello World”/
-│   ├── 003_Python基础语法/
-│   ├── 004_Python条件语句/
-│   ├── 005_Python循环语句/
-│   ├── 006_Python函数和模块/
-│   ├── 007_Python容器类型与相关操作/
-│   ├── 008_Python类和文件操作/
-│   ├── 009_Python异常处理/
-│   ├── 010_Python内置函数/
-│   ├── 011_Python多线程/
-│   ├── 012_Python PiP的使用/
-│   ├── 013_Python Numpy基础操作/
+├── docs/
 │   └── Python编程入门与实践-清华大学.pdf
 └── src/
     ├── 001-python-introduction-and-installation/
@@ -51,7 +38,7 @@ python-engineering-handbook/
 
 ## Main Curriculum
 
-The main curriculum follows the 13 course topics in `课件/`. Each topic has a runnable example under `src/`.
+The main curriculum follows the 13 course topics in the course materials. Each topic has a runnable example under `src/`.
 
 ### 001 Python Introduction and Installation
 
@@ -305,7 +292,8 @@ This supplement does not provide networking, sniffer, or port-scanner code.
 
 ## References
 
- - Reference book: [`Python编程入门与实践-清华大学.pdf`](课件/Python编程入门与实践-清华大学.pdf)
+ - Course examples: [`src/`](src/)
+ - Reference book: [`Python编程入门与实践-清华大学.pdf`](docs/Python编程入门与实践-清华大学.pdf)
  - Python documentation: https://docs.python.org/zh-cn/
  - NumPy documentation: https://numpy.org/doc/
 

@@ -1,6 +1,6 @@
 ﻿# Python Engineering Handbook
 
-一个面向 Python 初学者的课程笔记与案例仓库，内容主要整理自 `课件/` 中的课程资料，并参考《Python 编程入门与实践（微视频版）》补充学习路线和知识笔记。
+一个面向 Python 初学者的课程笔记与案例仓库，内容主要整理自课程资料，并参考《Python 编程入门与实践（微视频版）》补充学习路线和知识笔记。
 
 本仓库强调：先理解基础概念，再通过小案例练习，最后形成清晰、可维护、可复用的代码习惯。
 
@@ -17,20 +17,8 @@
 ```text
 python-engineering-handbook/
 ├── README.md
-├── 课件/
-│   ├── 001_Python介绍与安装/
-│   ├── 002_第一个程序-“Hello World”/
-│   ├── 003_Python基础语法/
-│   ├── 004_Python条件语句/
-│   ├── 005_Python循环语句/
-│   ├── 006_Python函数和模块/
-│   ├── 007_Python容器类型与相关操作/
-│   ├── 008_Python类和文件操作/
-│   ├── 009_Python异常处理/
-│   ├── 010_Python内置函数/
-│   ├── 011_Python多线程/
-│   ├── 012_Python PiP的使用/
-│   ├── 013_Python Numpy基础操作/
+├── README-English.md
+├── docs/
 │   └── Python编程入门与实践-清华大学.pdf
 └── src/
     ├── 001-python-introduction-and-installation/
@@ -50,7 +38,7 @@ python-engineering-handbook/
 
 ## 主课程
 
-主课程目录参考 `课件/` 的 13 个课程主题。每个章节都对应 `src/` 中的可运行案例。
+主课程目录参考课程资料中的 13 个课程主题。每个章节都对应 `src/` 中的可运行案例。
 
 ### 001 Python 介绍与安装
 
@@ -96,7 +84,7 @@ python-engineering-handbook/
 
 ### 008 Python 类和文件操作
 
-本章对应课件中的两个小节。
+本章对应课程资料中的两个小节。
 
 #### 类和对象
 
@@ -304,7 +292,8 @@ python src/013-python-numpy-basics/numpy_basics.py
 
 ## 参考资料
 
- - 参考书：[`Python编程入门与实践-清华大学.pdf`](课件/Python编程入门与实践-清华大学.pdf)
+ - 课程案例：[`src/`](src/)
+ - 参考书：[`Python编程入门与实践-清华大学.pdf`](docs/Python编程入门与实践-清华大学.pdf)
  - Python 官方文档：https://docs.python.org/zh-cn/
  - NumPy 官方文档：https://numpy.org/doc/
 
