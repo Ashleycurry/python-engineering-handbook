@@ -2,6 +2,8 @@
 
 A course notes and examples repository for Python beginners. The main content is organized from the course materials, with an additional learning path and supplementary notes based on *Python Programming: An Introduction and Practice (Micro Video Edition)*.
 
+[中文](README.md) | [English](README-English.md)
+
 This repository follows a simple progression: understand the fundamentals, practice with focused examples, and develop clear, maintainable, reusable coding habits.
 
 ## Learning Path
